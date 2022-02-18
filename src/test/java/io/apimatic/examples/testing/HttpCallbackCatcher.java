@@ -6,10 +6,10 @@
 
 package io.apimatic.examples.testing;
 
-import io.apimatic.examples.http.client.HttpCallback;
-import io.apimatic.examples.http.client.HttpContext;
-import io.apimatic.examples.http.request.HttpRequest;
-import io.apimatic.examples.http.response.HttpResponse;
+import com.example.sdk.http.client.HttpCallback;
+import com.example.sdk.http.client.HttpContext;
+import com.example.sdk.http.request.HttpRequest;
+import com.example.sdk.http.response.HttpResponse;
 
 /**
  * An HTTPCallback that captures the request and response for use later.

@@ -6,9 +6,9 @@
 
 package io.apimatic.examples.testing;
 
+import com.example.sdk.ApiHelper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
-import io.apimatic.examples.ApiHelper;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;

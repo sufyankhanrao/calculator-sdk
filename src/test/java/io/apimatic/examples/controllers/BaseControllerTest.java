@@ -6,13 +6,13 @@
 
 package io.apimatic.examples.controllers;
 
-import io.apimatic.examples.APIMATICCalculatorClient;
-import io.apimatic.examples.Environment;
 import io.apimatic.examples.testing.HttpCallbackCatcher;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.rules.Timeout;
+import com.example.sdk.APIMATICCalculatorClient;
+import com.example.sdk.Environment;
 
 /**
  * Base class for all test cases.
